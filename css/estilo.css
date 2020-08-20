@@ -1,0 +1,88 @@
+#fundo-inicio {
+	background-image: url("../img/background-1.jpg");
+	height: 100%; 
+	background-attachment: fixed;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home {
+	background-image: url("../img/background-2.jpg");
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#fundo-inicio2{
+	background-image: url("../img/background-2.jpg");
+	height: 100%; 
+	background-attachment: fixed;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Menu Navbar */
+
+#main {
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 0.5em 1em rgba(0, 0, 0, 0.10);
+}
+
+#main::before {
+  content: '';
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
+
+
+/* Menu Navbar Links */
+
+#nav-principal{
+	font-family: Impact, Charcoal, sans-serif;
+	}
+	
+#nav-index .nav-link {
+color: white !important;
+margin-right: 5px;
+}
+
+#nav-principal a:hover{
+	border-radius: 10px;
+	background: rgb(255, 255, 255, 0.1);
+}
+
+
+.btn:hover{]
+	border-radius: 10px;
+	background: rgb(255, 255, 255, 0.1);
+}
+
+
+
+
+/* Carousel */
+
+.carousel-image img{
+  width: 500px;
+  max-width: 500px;
+  height: 200px;
+}
+
+
+/* Carousel effect */
+
+.carousel-caption{
+  opacity:1;
+  transition:500ms ease-in-out;
+}
+.carousel-item:hover .carousel-caption{
+  opacity:0;
+}
+
+
+
