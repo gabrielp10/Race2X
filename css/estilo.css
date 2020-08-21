@@ -7,8 +7,6 @@
 	background-size: cover;
 }
 
-
-
 #fundo-inicio2{
 	background-image: url("../img/background-2.jpg");
 	height: 100%; 
@@ -22,17 +20,39 @@
 	background-image: url("../img/background-3.jpg");
 	height: 100%; 
 	background-attachment: fixed;	
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-position: top center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin: 0 auto !important;
+    padding-top: 250px;
+    position: relative;
 }
 
+#fundo-inicio4{
+	background-image: url("../img/background-4.jpg");
+	height: 100%; 
+	background-attachment: fixed;	
+    background-position: top center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin: 0 auto !important;
+    padding-top: 250px;
+    position: relative;
+}
 
-
-
+#fundo-inicio5{
+	background-image: url("../img/background-5.jpg");
+	height: 100%; 
+	background-attachment: fixed;	
+    background-position: top center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin: 0 auto !important;
+    padding-top: 250px;
+    position: relative;
+}
 	
-
-
+	
 /* Menu Navbar */
 
 #main {
@@ -51,6 +71,7 @@
 
 #nav-principal{
 	font-family: Impact, Charcoal, sans-serif;
+	letter-spacing:2px;
 	}
 	
 #nav-index .nav-link {
@@ -96,6 +117,70 @@ margin-right: 5px;
 .slide-dimension img {
 	height: 1000px;
 	width: 666px;
+}
+
+
+
+/* Fa in effect - Title */
+
+
+.title-fade {
+	  animation: fadeIn ease 5s;
+	  -webkit-animation: fadeIn ease 5s;
+	  -moz-animation: fadeIn ease 5s;
+	  -o-animation: fadeIn ease 5s;
+	  -ms-animation: fadeIn ease 5s;
+	}
+.subtitle-fade {
+	  animation: fadeIn ease 8s;
+	  -webkit-animation: fadeIn ease 8s;
+	  -moz-animation: fadeIn ease 8s;
+	  -o-animation: fadeIn ease 8s;
+	  -ms-animation: fadeIn ease 8s;
+	}
+	@keyframes fadeIn {
+	  0% {
+		opacity:0;
+	  }
+	  100% {
+		opacity:1;
+	  }
+	}
+
+	@-moz-keyframes fadeIn {
+	  0% {
+		opacity:0;
+	  }
+	  100% {
+		opacity:1;
+	  }
+	}
+
+	@-webkit-keyframes fadeIn {
+	  0% {
+		opacity:0;
+	  }
+	  100% {
+		opacity:1;
+	  }
+	}
+
+	@-o-keyframes fadeIn {
+	  0% {
+		opacity:0;
+	  }
+	  100% {
+		opacity:1;
+	  }
+	}
+
+	@-ms-keyframes fadeIn {
+	  0% {
+		opacity:0;
+	  }
+	  100% {
+		opacity:1;
+	}
 }
 
 	
