@@ -7,13 +7,7 @@
 	background-size: cover;
 }
 
-#home {
-	background-image: url("../img/background-2.jpg");
-	height: 100%; 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 
 #fundo-inicio2{
 	background-image: url("../img/background-2.jpg");
@@ -23,6 +17,20 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#fundo-inicio3{
+	background-image: url("../img/background-3.jpg");
+	height: 100%; 
+	background-attachment: fixed;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+	
 
 
 /* Menu Navbar */
@@ -37,7 +45,6 @@
   -webkit-filter: blur(20px);
   filter: blur(20px);
 }
-
 
 
 /* Menu Navbar Links */
@@ -57,10 +64,11 @@ margin-right: 5px;
 }
 
 
-.btn:hover{]
+.btn:hover{
 	border-radius: 10px;
 	background: rgb(255, 255, 255, 0.1);
 }
+
 
 
 
@@ -85,4 +93,9 @@ margin-right: 5px;
 }
 
 
+.slide-dimension img {
+	height: 1000px;
+	width: 666px;
+}
 
+	
