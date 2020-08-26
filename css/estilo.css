@@ -96,11 +96,11 @@ margin-right: 5px;
 
 /* Carousel */
 
-.carousel-image .item{
+/*.carousel-item {
   width: 500px;
   max-width: 500px;
   height: 200px;
-}
+}*/
 
 
 /* Carousel effect */
@@ -114,10 +114,6 @@ margin-right: 5px;
 }
 
 
-.slide-dimension img {
-	height: 1000px;
-	width: 666px;
-}
 
 
 
