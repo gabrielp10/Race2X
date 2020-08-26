@@ -84,11 +84,15 @@ margin-right: 5px;
 	background: rgb(255, 255, 255, 0.1);
 }
 
+#nav-principal .btn:hover {
+	color: red;
+}
 
 .btn:hover{
 	border-radius: 10px;
 	background: rgb(255, 255, 255, 0.1);
 }
+
 
 
 
